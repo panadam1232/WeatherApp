@@ -1,4 +1,4 @@
-package org.weatherApp;
+package org.weatherApp.sourcecode;
 
 public class WeatherData {
     //— Subtask: Przygotowanie modelu danych dla rezultatu (temperatura, ciśnienie, wilgotność, kierunek i prędkość wiatru).

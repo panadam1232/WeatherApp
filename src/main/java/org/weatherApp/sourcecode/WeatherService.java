@@ -1,4 +1,4 @@
-package org.weatherApp;
+package org.weatherApp.sourcecode;
 
 public class WeatherService {
     private WeatherApiStrategy apiStrategyOne;
@@ -25,11 +25,11 @@ public class WeatherService {
     private static WeatherData getAverageValueForWeatherData(WeatherData weatherData1, WeatherData weatherData2) {
         WeatherData weatherDataFinal = new WeatherData();
 
-        weatherDataFinal.setTemp((weatherData1.getTemp()+ weatherData2.getTemp()/2));
-        weatherDataFinal.setPressure((weatherData1.getPressure()+ weatherData2.getPressure())/2);
-        weatherDataFinal.setHumidity((weatherData1.getHumidity()+ weatherData2.getHumidity())/2);
-        weatherDataFinal.setSpeed((weatherData1.getSpeed()+ weatherData2.getSpeed())/2);
-        weatherDataFinal.setDeg((weatherData1.getDeg()+ weatherData2.getSpeed())/2);
+        weatherDataFinal.setTemp((weatherData1.getTemp() + weatherData2.getTemp() / 2));
+        weatherDataFinal.setPressure((weatherData1.getPressure() + weatherData2.getPressure()) / 2);
+        weatherDataFinal.setHumidity((weatherData1.getHumidity() + weatherData2.getHumidity()) / 2);
+        weatherDataFinal.setSpeed((weatherData1.getSpeed() + weatherData2.getSpeed()) / 2);
+        weatherDataFinal.setDeg((weatherData1.getDeg() + weatherData2.getSpeed()) / 2);
         return weatherDataFinal;
     }
 }

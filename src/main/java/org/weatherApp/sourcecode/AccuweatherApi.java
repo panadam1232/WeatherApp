@@ -1,11 +1,12 @@
-package org.weatherApp;
+package org.weatherApp.sourcecode;
 
 import org.json.JSONArray;
 import org.json.JSONObject;
 
 public class AccuweatherApi implements WeatherApiStrategy {
     private URLConnection urlConnection;
-    public AccuweatherApi(URLConnection urlConnection) {
+
+    protected AccuweatherApi(URLConnection urlConnection) {
         this.urlConnection = urlConnection;
     }
 

@@ -1,9 +1,10 @@
-package org.weatherApp;
+package org.weatherApp.sourcecode;
 
 import org.json.JSONObject;
 
 public class OpenweatherApi implements WeatherApiStrategy {
     private URLConnection urlConnection;
+
     public OpenweatherApi(URLConnection urlConnection) {
         this.urlConnection = urlConnection;
     }

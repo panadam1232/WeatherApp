@@ -1,4 +1,4 @@
-package org.weatherApp;
+package org.weatherApp.sourcecode;
 
 import java.util.Scanner;
 

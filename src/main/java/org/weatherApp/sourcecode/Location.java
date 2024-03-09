@@ -1,4 +1,4 @@
-package org.weatherApp;
+package org.weatherApp.sourcecode;
 
 public class Location {
 
