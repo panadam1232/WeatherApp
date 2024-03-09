@@ -5,10 +5,7 @@ import java.util.Scanner;
 public class UserClient {
     //https://geocode.maps.co/search?q=Polska,Warszawa,Chmielna,00-020&api_key=65e2f07a7c763292633381fac5b8a44
 
-    public static void main(String[] args) {
-
-    }
-    public static void getLocationDataFromUser(Location location) {
+    public void getLocationDataFromUser(Location location) {
         Scanner scanner = new Scanner(System.in);
         String country;
         String city;
@@ -37,4 +34,5 @@ public class UserClient {
         location.setStreet(street);
         location.setZipCode(zipCode);
     }
+
 }
